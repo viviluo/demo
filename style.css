@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 210px;
+    height: 120px;
+    padding-top: 200px;
+    padding-left: 500px;
+
+}
+.class1{
+    width: 600px;
+    height: 40px;
+    margin-left: 250px;
+    
+    
+}
+.class2{
+    width: 100px;
+    height: 42px;
+    background-color:#3385ff;
+    color: cornsilk;
+    border: 0;
+
+    
+}
+.head1{
+    position: absolute;
+    top :0px;
+    padding: 20px;
+    
+    }
+a:link,a:visited{
+        text-decoration: none;/*去掉下划线*/
+        color: black;/*文字颜色*/
+        }
+ a:active,a:hover{
+     color: coral;/*当鼠标放上去的时候字体颜色为橙色*/
+ }        
+li{
+    display: inline;/*水平导航栏*/
+    padding: 5px;
+    
+}
+.head2 li{
+    top: 0px;
+    float: right;/*向右浮动*/
+    padding: 20px;
+}
+.foot{
+    font-size: 13px;
+     margin-top: 200px;
+}
