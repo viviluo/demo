@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.class1{
+    width: 350px;
+    height: 30px;
+    position: fixed;
+    left: 35%;
+    right: 50%;
+    top: 4%;
+    text-align: left;
+    font-size: 15px;
+    
+}
+.class2{
+    width: 110x;
+    height: 34px;
+    position: fixed;
+    left: 60%;
+    right: 50%;
+    top: 4%;
+    background-color: rgb(92,119,243);
+    border: 0px;
+    color: white;
+    
+}
+.class3{
+    position: fixed;
+    left: 96%;
+    top: 4%;
+}
+.href1{
+    border: 1px ;
+    width: 95%;
+    height: 50px;
+    background-color:rgb(92, 119, 243);
+    margin-top: 30px;
+    margin-left: 32px;
+}
+li{
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+      
+}
+a:link,a:visited{
+    text-decoration: none;
+    color:white;
+    
+}
+a:hover,a:active{
+    color: rgb(70, 130, 243);
+    background-color: whitesmoke;
+}
