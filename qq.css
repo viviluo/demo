@@ -5,6 +5,7 @@
 .logo{
     padding-top: 20px;
     padding-left: 20px;
+    
 }
 .class1{
     width: 350px;
@@ -15,7 +16,10 @@
     top: 4%;
     text-align: left;
     font-size: 15px;
-    
+    border-radius: 15px;
+    background-color: rgb(252, 248, 248);
+    border-style:inset;
+
 }
 .class2{
     width: 110x;
@@ -27,6 +31,7 @@
     background-color: rgb(92,119,243);
     border: 0px;
     color: white;
+    border-radius: 15px;
     
 }
 .class3{
@@ -41,11 +46,13 @@
     background-color:rgb(92, 119, 243);
     margin-top: 30px;
     margin-left: 32px;
+    
 }
-li{
+ .href1 ul li{
     display: inline;
     padding-left: 25px;
     font-size: 20px;
+    text-align: center;
       
 }
 a:link,a:visited{
@@ -56,4 +63,7 @@ a:link,a:visited{
 a:hover,a:active{
     color: rgb(70, 130, 243);
     background-color: whitesmoke;
+}
+.foot1{
+    color: black;
 }
