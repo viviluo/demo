@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>javascript教学</title>
+</head>
+
+<body>
+
+    <input type="text" value="123" id="input1" placeholder="请输入一个数字"/>
+    <input type="text" value="8" id="input2" placeholder="请输入一个数字"/>
+    <input type="button" value="确定" id="button1"/>
+    
+
+    <script type="text/javascript">
+
+
+        var x = 777;
+
+        var y = 888;
+
+        if (x > y ) {
+            console.log('....')
+        } else if (x == y) {
+            console.log('aaaa');
+        } else if (x < 8) {
+            console.log('ss')
+        } else {
+            console.log('什么条件都不满足');
+        }
+
+        // ================ 第一节 ====================
+        // 变量的使用规则 ，先定义，后使用
+        var number1;
+
+        number1 = document.getElementById('input1');  // 赋值
+
+        console.log(number1); // 不会读的单词，下载一个“腾讯翻译官”
+
+        console.log(number1.value);
+        console.log(number1.id);
+        console.log(number1.type);
+        console.log(number1.placeholder);
+        number1.placeholder = '新的placeholder';
+        number1.value = '';
+        console.log(number1.placeholder);
+
+
+        // ================ 第二节 ====================
+
+        var but1 = document.getElementById('button1');
+        var input2 = document.getElementById('input2');
+
+        // console.log(but1);
+
+        var fun1 =  function(e) {
+            // console.log(e);
+            
+            var val1 = number1.value;
+            var val2 = input2.value;
+
+            console.log(val1);
+            console.log(val1 + val2);
+
+            val1 = Number(val1);  // 将文本转换成数字
+            val2 = Number(val2);
+
+            console.log(val1);
+
+            var val3 = val1 + val2;
+            console.log(val3);
+
+            // 如果 变量值 等于 100 则....
+            if (val3 == 100) {
+                alert('恭喜您，获得满分！');
+            } else if(val3 >= 60) {
+                console.log('恭喜，及格！');
+            } else {
+                // 否则...  （不等于100的情况）
+                console.log('很遗憾，没有及格！');
+            }
+        };
+
+        // add 添加  Event 事件  Listener 监听器
+        // click 单击
+        // function 单击后要执行的动作
+        but1.addEventListener('click', fun1);
+
+
+
+    </script>
+
+</body>
+
+</html>
