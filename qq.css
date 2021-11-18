@@ -55,15 +55,27 @@
     text-align: center;
       
 }
-a:link,a:visited{
+.href1 a:link,a:visited{
     text-decoration: none;
     color:white;
     
 }
-a:hover,a:active{
+.href1 a:hover,a:active{
     color: rgb(70, 130, 243);
     background-color: whitesmoke;
 }
+.body1 {
+    margin-top: 30px;
+    margin-left: 32px;
+}
+.body1 img{
+    height:65px;
+}
+.body2{ 
+    
+    
+}
 .foot1{
     color: black;
+    text-align: center;
 }
