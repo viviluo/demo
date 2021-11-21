@@ -4,16 +4,40 @@
         <title>javascript</title>
     </head>
     <body>
+            
+        <input type="text" id="div1" value="3" placeholder="请输入"/>
+        <input type="text"  id="div3" value="100" placeholder="请输入1"/>
+        <input type="button" id="div2" value="✅"/>
         
-        <div>
-            <input style="text" id="div1" value="1" placeholder="请输入"/>
-            <input style="text" id="div3" value="1" placeholder="请输入1"/>
-            <input type="button" id="div2" value="✅"/>
-        </div>
-        <script>
-        var div1 = document.getElementById ("div1");
-            console.log (div1.value)
+        <script type="text/javascript">
+            var div1 = document.getElementById ("div1");
+            console.log (div1.id);
+            console.log (div1.value);
             console.log (div1.placeholder);
+
+            var div3 = document.getElementById("div3");
+            console.log (div3.value);
+
+            var div1 = document.getElementById ("div1");
+            var div3 = document.getElementById ("div3");
+            var div2 = function(e){
+            var l1 = div1.value;
+            var l2 = div3.value;
+            
+            close.log(l1);
+            close.log(l1+l2);
+
+            l1 = Number(l1); 
+            l2 = Number(l2); 
+
+            close.log(l1);
+            var l3 = l1+l2;
+            close.log(l3);
+            div1.addEventListener('click',div3);
+            close.log(l1+l2);
+        };
+
+
             
         </script>
     
